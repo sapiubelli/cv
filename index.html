@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
 .titulo {
 font-family:Californian FB; 
@@ -38,7 +39,7 @@ a:link {
   color: black;
 }
 
-/* visited link */
+/* visitado*/
 a:visited {
   color: black;
 }
@@ -48,27 +49,125 @@ a:hover {
   color: orange;
 }
 
-/* selected link */
+/* seleccionado link */
 a:active {
   color: black;
 }
 
 
+
+
+/* para responsive */
+
+aside {
+width: 30%;
+float: right;
+background:#D9D9D9;
+}
+
+section {
+width: 70%;
+float: left;
+}
+ 
+article {
+width: 70%;
+float: left;
+}
+
+@media screen and (max-width:800px){
+section{
+	width:100%;
+}
+aside{
+	width:100%;
+}
+article{
+	width:100%;
+}
 </style>
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
 
 </head>
 <body>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" >
-  <tr>
-    <td width="70%" align="left" valign="top" scope="col"><table width="100%" border="0" cellspacing="20" cellpadding="10">
+
+
+<section>
+<table width="100%" border="0" cellspacing="20" cellpadding="10">
         <tr>
           <td bgcolor="#EED7B7" scope="col" class="categoria">
            <p class="titulo">SERGIO ARIEL PIUBELLI</p>
           <p class="subtitulo">CURRICULUM VITAE</p>
           </td>
         </tr>
+        </table>
+</section>
+
+
+
+
+<aside>
+<div align="center"><img src="FT CV.png" width="228" height="302" border="0"/></div>
+<table width="100%" border="0" cellspacing="20" cellpadding="10">
         <tr>
+          <td bgcolor="#F4F2F0" scope="col" class="categoria" >DATOS PERSONALES</td>
+        </tr>
+        <tr>
+          <td scope="row" class="texto"> Edad: 33 A&ntilde;os<p>
+            Estado Civil: Soltero<p>
+            Movilidad propia
+            <p>
+            Licencia de conducir: A.2.2 (Motocicletas y cuatri 150cc a 300cc) y D.3 Servicios de Emergencia complemento B1 (CHOFER DE VEHICULOS DE EMERGENCIA POLICIAL) 
+            <p>
+          Domicilio: General Roca, Rio Negro </td>
+        </tr>
+        <tr>
+          <td bgcolor="#F4F2F0" scope="row" class="categoria">CONTACTO</td>
+        </tr>
+        <tr>
+          <td scope="row"  class="texto"> 
+          <img src="iconos/telefono.png" width="" height="" border="0" class="a"/>+549 294 154 766578 (llamadas - sms)<p>
+          
+          <img src="iconos/whatsapp.png" width="" height="" border="0"  class="a"/>+549 294 154 372894 (Whatsapp)<p>
+          
+          <img src="iconos/gmail.png" width="" height="" border="0"  class="a"/>
+           sapiubelli@gmail.com
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#F4F2F0" scope="row" class="categoria">PERFIL</td>
+        </tr>
+        <tr>
+          <td scope="row"  class="texto"> Liderazgo y direcci&#243;n de personal,
+            con orientaci&#243;n a las nuevas tecnolog&#237;as. <br /></td>
+        </tr>
+        <tr>
+          <td bgcolor="#F4F2F0" scope="row" class="categoria">OBJETIVO PROFESIONAL</td>
+        </tr>
+        <tr>
+          <td scope="row"  class="texto"> Formar parte de un equipo de
+            desarrollo de proyectos, poniendo
+            en pr&#225;ctica los conocimientos y
+            liderazgo adquirido con la
+            experiencia.<br />
+            Continuar capacit&#225;ndome con el
+            compromiso de un trabajador
+          honesto y fiel. <br /></td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</aside>
+
+
+
+
+<article>
+<table width="100%" border="0" cellspacing="20" cellpadding="10">
+<tr>
         <td bgcolor="#EED7B7" scope="col" class="categoria">FORMACION PROFESIONAL</td>
       </tr>
       <tr>
@@ -128,7 +227,7 @@ a:active {
           </ul>
           <p>
           <li><u>AUTOMATIZACION  DE SISTEMA HIDROPONICO </u></li>
-          <em>Sensores en tiempo real por medio de sockets a multiples dispositivos, que permiten administrar y gestionar el crecimiento del cultivo, graficos y busqueda de registros historicamente. Posibilidad de modificar los rangos de riegos o microaspersion segun temperatura y humedad, desde aplicación. </em>
+          <em>Sensores en tiempo real por medio de sockets a multiples dispositivos, que permiten administrar y gestionar el crecimiento del cultivo, graficos y busqueda de registros historicamente. Posibilidad de modificar los rangos de riegos o microaspersion segun temperatura y humedad. </em>
 <ul>
   <li>
           <a href="https://youtu.be/p7rxIOUeIRI" target="_blank"><img src="iconos/youtube.png" width="" height="" border="0" class="a"/> Video del funcionamiento</a>
@@ -191,6 +290,7 @@ a:active {
             <a href="CERTIFICADOS\informatica/SEGURIDAD INFORMATICA PARA PROFESIONALES IT (2014).jpg" target="_blank">
             <img src="iconos/diploma.png" width="" height="" border="0" class="a"/>CURSO &ldquo;SEGURIDAD INFORMATICA PARA PROFESIONALES IT&rdquo; - (a&#241;o 2014) </a></li>
             <li>
+
              <a href="CERTIFICADOS\informatica/SEGURIDAD INFORMATICA PARA PROFESIONALES IT (2018).jpg" target="_blank">
             <img src="iconos/diploma.png" width="" height="" border="0" class="a"/>CURSO &ldquo;SEGURIDAD INFORMATICA PARA PROFESIONALES IT&rdquo; - (a&#241;o 2018) 60 Horas c&amp;#225;tedras </a></li>
              </ul>
@@ -244,63 +344,18 @@ a:active {
         <td scope="row">&nbsp;</td>
       </tr>
   </table>
-    <p>&nbsp;</p></td>
-    <td width="30%" align="left" valign="top" bgcolor="#D9D9D9" scope="col"> 
-    
-    <div align="center"><img src="FT CV.png" width="228" height="302" border="0"/></div>
-    
-    
-   
-      <table width="100%" border="0" cellspacing="15" >
-        <tr>
-          <td bgcolor="#F4F2F0" scope="col" class="categoria" ><p>DATOS PERSONALES</p></td>
-        </tr>
-        <tr>
-          <td scope="row" class="texto"> Edad: 33 A&ntilde;os<p>
-            Estado Civil: Soltero<p>
-            Movilidad propia
-            <p>
-            Licencia de conducir: A.2.2 (Motocicletas y cuatri 150cc a 300cc) y D.3 Servicios de Emergencia complemento B1 (CHOFER DE VEHICULOS DE EMERGENCIA POLICIAL) 
-            <p>
-          Domicilio: General Roca, Rio Negro </td>
-        </tr>
-        <tr>
-          <td bgcolor="#F4F2F0" scope="row" class="categoria">CONTACTO</td>
-        </tr>
-        <tr>
-          <td scope="row"  class="texto"> 
-          <img src="iconos/telefono.png" width="" height="" border="0" class="a"/>+549 294 154 766578 (llamadas - sms)<p>
-          
-          <img src="iconos/whatsapp.png" width="" height="" border="0"  class="a"/>+549 294 154 372894 (Whatsapp)<p>
-          
-          <img src="iconos/gmail.png" width="" height="" border="0"  class="a"/>
-           sapiubelli@gmail.com
-          </td>
-        </tr>
-        <tr>
-          <td bgcolor="#F4F2F0" scope="row" class="categoria">PERFIL</td>
-        </tr>
-        <tr>
-          <td scope="row"  class="texto"> Liderazgo y direcci&#243;n de personal,
-            con orientaci&#243;n a las nuevas tecnolog&#237;as. <br /></td>
-        </tr>
-        <tr>
-          <td bgcolor="#F4F2F0" scope="row" class="categoria">OBJETIVO PROFESIONAL</td>
-        </tr>
-        <tr>
-          <td scope="row"  class="texto"> Formar parte de un equipo de
-            desarrollo de proyectos, poniendo
-            en pr&#225;ctica los conocimientos y
-            liderazgo adquirido con la
-            experiencia.<br />
-            Continuar capacit&#225;ndome con el
-            compromiso de un trabajador
-          honesto y fiel. <br /></td>
-        </tr>
-      </table>
-    <p>&nbsp;</p></td>
-  </tr>
-</table>
+</article>
+
+
+
+
+
+
+
+ 
+      
+
+
 
 </body>
 </html>
